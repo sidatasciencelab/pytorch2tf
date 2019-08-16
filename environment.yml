@@ -1,0 +1,9 @@
+name: pytorchtf
+channels:
+  - defaults
+  - pytorch
+  - conda-forge
+dependencies:
+  - tensorflow=1.14.*
+  - pytorch=1.2.*
+  - onnx-tf
