@@ -1,6 +1,5 @@
 name: pytorchtf
 channels:
-  - defaults
   - pytorch
   - conda-forge
 dependencies:
