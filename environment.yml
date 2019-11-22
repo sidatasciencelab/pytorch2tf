@@ -4,7 +4,6 @@ channels:
   - conda-forge
 dependencies:
   - python=3.6
-  - tensorflow
   - pytorch=1.2.*
   - torchvision
   - cpuonly
@@ -12,5 +11,6 @@ dependencies:
   - pip
   - pip:
     - fastai
+    - tensorflow==1.15
     - onnx
     - onnx-tf
