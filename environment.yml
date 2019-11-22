@@ -7,4 +7,8 @@ dependencies:
   - python=3.6
   - tensorflow=1.14.*
   - pytorch=1.2.*
-  - onnx-tf
+  - onnx
+  - pip
+  - pip:
+    - fastai
+    - onnx-tf
